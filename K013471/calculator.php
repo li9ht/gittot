@@ -6,7 +6,7 @@ class Calculator
 {
 	$result = 0;
 
-	function add($a, $b )
+	function add($a=0, $b=0 )
 	{
 		$this->result = $a + $b;
 	}
